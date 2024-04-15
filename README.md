@@ -4,7 +4,7 @@
 
 Lütfen kitap PDF'leri veya belgeleri eklemeyin. Telif hakkıyla korunuyorlar. Bu tür belgelerin yüklenmesi, reponun kapanmasıyla sonuçlanabilir. Bu yüzden lütfen kitap **YÜKLEMEYİN**, yalnızca not yükleyin.
 
-Ayrıca bu notların kişisel mi alındığı yoksa hocaların mı verdiği, el yazısı mı yoksa bilgisayar da mı oluşturulduğu, hangi üniversiteye, hocaya, yıla ve döneme ait olduğu gibi bilgilere sahipseniz commit mesajınızda belirtmenizi rica ediyoruz.
+Ayrıca bu notların kişisel mi alındığı yoksa hocaların mı verdiği, el yazısı mı yoksa bilgisayarda mı oluşturulduğu, hangi üniversiteye, hocaya, yıla ve döneme ait olduğu gibi bilgilere sahipseniz commit mesajınızda belirtmenizi rica ediyoruz.
 
 # Türkiye Öğrenme İnisiyatifi
 
@@ -28,18 +28,18 @@ Bu repo dışında daha önce oluşturulmuş olan aşağıdaki repo adreslerine 
 -   [coderserdar](https://github.com/coderserdar) tarafından oluşturulmuş, genel olarak _İngilizce_ dokümanlardan oluşan [Documents](https://github.com/coderserdar/Documents) reposu
 -   [coderserdar](https://github.com/coderserdar) tarafından oluşturulmuş, okul zamanından kalma ders notları, kitaplar, sınavlar vb. içeren [HacettepeBBM](https://github.com/coderserdar/HacettepeBBM) reposu
 -   [baristunar](https://github.com/baristunar/) tarafından oluşturulmuş, _Tasarım Örüntüleri (Design Patterns)_ hakkında makalelerden oluşan [Design-Patterns-TR](https://github.com/baristunar/design-patterns-tr) reposu
--   [onurravli]() tarafından oluşturulmuş, [Git Türkçe Kullanma Kılavuzu](https://github.com/onurravli/git-turkce-kullanma-kilavuzu) reposu.
+-   [onurravli](https://github.com/onurravli) tarafından oluşturulmuş, [Git Türkçe Kullanma Kılavuzu](https://github.com/onurravli/git-turkce-kullanma-kilavuzu) reposu.
 -   **Not:** Buraya kendi repo adreslerinizi eklerken eğer repo _readme_ içerisinde belirtilmemişse lütfen reponun ne hakkında olduğunu detaylı bir şekilde yazınız.
 
 ## Nasıl kaynak yükleyebilirsiniz?
 
-Github'da istediğiniz repoya dosya yüklemek oldukça kolay. Bu repoya dosya isimleriniz `Bölümİsmi_Dersİsmi_Konuİsmi` olacak şekilde istediğiniz formatta dosyalarınızı gerekli klasörün altında yükleyebilirsiniz. Şu adımları izlemeniz yeterli.
+Github'da istediğiniz repoya dosya yüklemek oldukça kolay. Bu repoya dosya isimleriniz `Bölümİsmi_Dersİsmi_Konuİsmi` olacak şekilde istediğiniz formatta dosyalarınızı gerekli klasörün altında yükleyebilirsiniz. Şu adımları izlemeniz yeterli:
 
-# 1. Github Hesabı Oluşturun
+### 1. Github Hesabı Oluşturun
 
 Eğer daha önce Github hesabınız yoksa, bir hesap oluşturmanız gerekir. <a href="https://github.com/">github.com</a> adresine gidin ve sağ üst köşedeki "Sign Up" düğmesine tıklayın. Hesabınızı oluşturmak için yönergeleri takip edin.
 
-# 2. Repoyu kendi hesabınıza forklayın
+### 2. Repoyu kendi hesabınıza forklayın
 
 Fork, başkalarının projeleri üstünde kolayca çalışma yapmanızı sağlayan bir yöntem. Bunun üzerine çok kafa yormanıza gerek yok. Bu şekilde projeyi kendi hesabınıza forklayabilirsiniz.
 <img width="1512" alt="Screen Shot 2023-02-11 at 14 06 45" src="https://user-images.githubusercontent.com/72661473/218254740-ac6a8bda-e58d-49b6-8d05-7c20564176ae.png">
@@ -56,11 +56,11 @@ https://user-images.githubusercontent.com/72661473/218254900-24f49615-ca0d-459c-
 
 Artık kendi hesabınızın altında bu repoya ulaşıp, değişiklikler yapabilirsiniz.
 
-`https://github.com/GithubHesapİsminiz/TurkeyLearningInitiative` linki altından reponuza ulaşabilirsiniz. Ya da bu şekilde ulaşabilirsiniz:
+`https://github.com/GithubHesapİsminiz/TurkeyLearningInitiative` linki altından reponuza ulaşabilirsiniz. Ya da şu şekilde ulaşabilirsiniz:
 
 https://user-images.githubusercontent.com/72661473/218255092-04ab8052-9693-4fef-bfa7-47a8190ee869.mov
 
-# 3. Dosya Yükleme
+### 3. Dosya Yükleme
 
 Artık bir reponuz var, dosyalarınızı yükleyebilirsiniz. Depo sayfanıza gidin ve "Upload files" düğmesine tıklayın.
 
@@ -78,7 +78,7 @@ https://user-images.githubusercontent.com/72661473/218255338-9c9ef50e-683b-430e-
 
 Commit mesajınız bu durumda çok önemli. "Commit", değişikliklerinizin depoya kaydedilmesidir. Bu mesajın bu değişiklikte ne yaptığınızı anlatması gerekir. Bu yüzden yüklediğiniz bölümlerin mesaj içerisinde olması iyi bir adım olabilir. Her değişiklikte tek bir bölüm ile ilgili içerik yüklemeniz daha doğru olacaktır.
 
-# Pull Request
+### Pull Request
 
 Bu değişiklikler sadece sizin reponuzda görünür olacaktır. Bu değişikliklerin asıl repoya gidebilmesi için `pull request` açmanız gerekir. Böylece asıl proje sahibi eklemek istediğiniz şeyleri inceler ve orijinal repoya ekler.
 
@@ -95,6 +95,8 @@ Email adreslerimiz:
 
 -   a.ayyuce.de@gmail.com
 -   gdenizbektass@gmail.com
+
+***
 
 # TurkeyLearningInitiative
 
